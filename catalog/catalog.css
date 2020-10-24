@@ -1,0 +1,87 @@
+.float-right {
+    float: right
+}
+
+.cci-logo {
+    height: 80px;
+    padding: 10px 10px 0 0; 
+}
+
+.lookup-container {
+    padding: 50px 0 50px 0;
+}
+.lookup {
+
+}
+
+.products-grid {
+    padding: 100px 0 0 0;
+}
+
+.product-line {
+
+}
+
+.product-img {
+    height: 125px;
+    width: 125px;
+}
+
+.product-info {
+    width:  50%;
+    padding: 0 0 0 20px
+
+}
+.product-title {
+    font-size: 12pt;
+    font-weight: 600;
+    color: #C3375D;
+}
+
+.product-stock-line {
+    font-size: 10pt;
+    padding: 10px 0 0 0 ;
+}
+
+.product-stock-amount {
+    color: #2B4D75
+}
+
+.product-stock-label {
+    color: #AE838F;
+}
+
+.product-stock-description {
+    font-size: 9.5pt;
+}
+
+.product-amount-dropdown {
+    padding: 10px 10px 10px 10px;
+}
+
+.product-amount-dropdown-container {
+    padding: 50px 0 0 50px;
+}
+
+.product-buttons-container {
+    padding: 30px 0 0 70px;    
+    text-align: center;
+}
+
+.product-add-button {
+    width: 150px;
+    height: 40px;
+    background-color: #2B4D75;
+    border-color: #2B4D75;
+    color: whitesmoke
+}
+
+.product-consult-link {
+    color: #C3375D;
+    padding: 15px 0 0 0;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+    background-color: gray;
+}

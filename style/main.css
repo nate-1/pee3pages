@@ -2,8 +2,39 @@ html {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+
 body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.page-content {
+    padding: 150px 0 0 250px;
+    margin: 0 100px 0 50px
+}
+
+.text-div-container {
+    /* margin: 0 50px 0 50px; */
+    background-color: #2B4D75;
+    border-radius: 25px;
+}
+
+.text-div {
+    padding: 20px 20px 20px 20px;
+    color: whitesmoke;
+    font-size: 10pt;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.block {
+    display: block;
 }
