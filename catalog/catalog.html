@@ -5,12 +5,52 @@
     <title>Register</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="../style/menu.css">
+    <link rel="stylesheet" href="../style/main.css">
 </head>
 
 <body>
-    <aside class="menu">
-        <img class="profile-pic" src="../img/pdp.jpg">
-    </aside>
+    <div class="menu-container">
+        <div class="inline menu-header">
+            <img class="profile-pic inline" src="../img/pdp.jpg">
+            <div class="inline aside-profile-pic">
+                <span class="username">John Doe</span>
+                <a class="logoff link" href="../login/login.html">Se déconnecter</a>
+            </div>
+            <div class="inline collapse-button-container">
+                <input type="button" class="collapse-menu-button button" value="&lt;">
+            </div>
+        </div>
+        <div class="menu">
+            <div class="inline">
+                <span class="inline menu-title">Mon profile</span>
+                <input type="button" class="inline collapse-profile-button button" value="v">
+            </div>
+            <div class="link-profile">
+                <a class="menu-link link">Modifier mes informations</a>
+                <a class="menu-link link">Historique de commandes</a>
+            </div>
+            <a class="menu-title link block">Catalogue de fournitures</a>
+            <a class="menu-title link block">Mon panier</a>
+            <div class="inline">
+                <span class="inline menu-title">Administration</span>
+                <input type="button" class="inline collapse-admin-button button" value="v">
+            </div>
+            <div class="link-admin">
+                <a class="menu-link link block">Gérer les messages</a>
+                <a class="menu-link link block">Gérer les utilisateurs</a>
+                <a class="menu-link link block">Gérer les fournitures</a>
+                <a class="menu-link link block">Gérer les commandes</a>
+                <a class="menu-link link block">Gérer les départements</a>
+                <a class="menu-link link block">Gérer les statistique</a>
+            </div>
+        </div>
+        <footer class="menu-footer">
+            <div class="menu-footer-line"><span class="menu-footer-title">Site : </span><span class="menu-footer-content">Strasbourg</span></div>
+            <div class="menu-footer-line"><span class="menu-footer-title">Département : </span><span class="menu-footer-content">Administration</span></div>
+            <div class="menu-footer-line"><span class="menu-footer-title">Validateur : </span><span class="menu-footer-content">Jane Doe</span></div>
+        </footer>
+    </div>
 </body>
 
 </html>
