@@ -16,10 +16,11 @@
 
 .products-grid {
     padding: 100px 0 0 0;
+    width: 100%;
 }
 
 .product-line {
-
+    width: 100%;
 }
 
 .product-img {
@@ -28,7 +29,7 @@
 }
 
 .product-info {
-    width:  50%;
+    width:  40%;
     padding: 0 0 0 20px
 
 }
@@ -60,20 +61,24 @@
 }
 
 .product-amount-dropdown-container {
-    padding: 50px 0 0 50px;
+    padding: 50px 0 0 10%;
 }
 
 .product-buttons-container {
-    padding: 30px 0 0 70px;    
+    padding: 30px 0 0 10%;    
     text-align: center;
+    width: 10%;
 }
 
 .product-add-button {
-    width: 150px;
+    width: 100%;
     height: 40px;
     background-color: #2B4D75;
     border-color: #2B4D75;
-    color: whitesmoke
+    color: #f5f5f5;
+    font-size: 100%;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
 }
 
 .product-consult-link {

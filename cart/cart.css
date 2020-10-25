@@ -1,0 +1,56 @@
+.float-right {
+    float: right
+}
+
+
+.lookup-container {
+    padding: 50px 0 50px 0;
+}
+.lookup {
+
+}
+
+.products-grid {
+    padding: 100px 0 0 0;
+}
+
+.product-line {
+    width: 100%
+}
+
+.product-img {
+    height: 75px;
+    width: 75px;
+}
+
+.product-info {
+    width:  50%;
+    padding: 0 0 0 20px
+
+}
+.product-title {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #C3375D;
+    margin: 25px 0 0 20px;
+}
+
+.product-amount-dropdown-container {
+    margin: 20px 0 0 25%;
+}
+
+.product-amount-dropdown {
+    padding: 10px 10px 10px 10px;
+}
+
+
+.product-buttons-container {
+    padding: 15px 0 0 0;    
+    float: right;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+    background-color: gray;
+}
